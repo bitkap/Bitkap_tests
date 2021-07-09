@@ -24,8 +24,8 @@ We expect from you to :
 
 Depending of the position you apply for, please choose only one of the test below :
 
-- [Event API](events/ReadMe.md) (For **Spring Boot Developer**)
-- [ToDo list application](todos/ReadMe.md) (For **Flutter Developer**)
+- [Events management API](events/ReadMe.md) (For **Spring Boot Developer**)
+- [ToDo list management application](todos/ReadMe.md) (For **Flutter Developer**)
 
 **Please keep all your work in the same sub-folder than the choosen test**.
 
