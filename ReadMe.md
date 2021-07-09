@@ -13,7 +13,7 @@ We hope you will enjoy it while working.
 
 We expect from you to :
 
-- **Ensure we can build  and run your project ** : Please use any technology that you know to let us easyly test an run your result. Give us also few and clear instructions about.
+- **Ensure we can build  and run your project** : Please use any technology that you know to let us easyly test an run your result. Give us also few and clear instructions about how to proceed.
 
 - **Give your best work** : Dot not consider this as a simple exercice but approach it like any real project. Apply all that you know to produce the best work.
 
