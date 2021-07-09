@@ -12,12 +12,12 @@ With this App, the user should be able to :
 
  - Show the list of tasks
  
- - attach notes, links, files to any task
+ - Attach notes, links, files to any task
 
  - Show the status of each task with different colors
 
- - Send this task though email
+ - Send any task to an email mailbox
 
- - remind the user about overdue tasks that are not done.
+ - Remind the user about overdue tasks that are not done.
 
- the Data need to be saved in the mobile phone of the user.
+ The Data need to be saved in the mobile phone of the user.
