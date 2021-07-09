@@ -2,7 +2,7 @@
 
 A to-do list app lets you write, organize, and reprioritize your tasks more efficiently. They also let you attach notes, links, and files to a task, and many let you see when someone else has completed a task. In many ways, a good to-do app is the ultimate productivity app.
 
-The objectif here is to build a Mobile Todo list application.
+The goal here is to build a mobile Todo list application with Flutter.
 
 ## list of features 
 
