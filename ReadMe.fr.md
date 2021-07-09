@@ -21,7 +21,7 @@ Nous attendons de vous :
 Selon le poste auquel vous postulez, veuillez choisir un seul des tests ci-dessous :
 
    - [API de gestion des événements](events/ReadMe.fr.md) (pour **développeur Spring Boot**)
-   - [Application de liste de tâches](todos/ReadMe.fr.md)(pour **développeur Flutter**)
+   - [Application de liste de tâches](todos/ReadMe.fr.md) (pour **développeur Flutter**)
 
 Veuillez conserver tous vos travaux dans le même sous-dossier que le test choisi.
 
