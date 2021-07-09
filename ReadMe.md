@@ -1,6 +1,6 @@
 # Bitkap recruitment tests
 
-> Si vous avez besoin de la version française, [elle est ici!](README.fr.md)
+> Si vous avez besoin de la version française, [elle est ici!](ReadMe.fr.md)
 
 Hi new candidate !
 
