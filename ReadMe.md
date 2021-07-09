@@ -1,4 +1,4 @@
-# Bitkap recruitment test
+# Bitkap recruitment tests
 
 > Si vous avez besoin de la version française, [elle est ici!](README.fr.md)
 
