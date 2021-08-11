@@ -114,6 +114,24 @@ HTTP PUT http://localhost:9090/api/events
 ```javascript
 HTTP DELETE http://localhost:9090/api/events/{eventId}
 ```
+
+### GESTION des comments des events
+* SAVE COMMENT ON EVENT 
+```javascript
+HTTP POST http://localhost:9090/api/events/comments
+
+//post data
+{
+    "comment": "un super commentaire",
+    "date": "2021-08-10T01:28:24.570+00:00",
+    "eventId": 2
+}
+```
+
+* DELETE COMMENT ON EVENT 
+```javascript
+HTTP DELETE http://localhost:9090/api/events/comments/{commentId}
+```
 ## Appendix
 
 Cette petite application pourrait bien sur etre amelioré un par exemple:
