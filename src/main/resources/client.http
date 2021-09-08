@@ -1,0 +1,37 @@
+### create event
+POST http://localhost:8080/api/users/1/events
+Content-Type: application/json
+
+{
+      "titre": "phone",
+      "description": "venez acheter vos phone",
+      "date": "16-09-2021",
+      "time": "16:30",
+      "locality": "Bafoussam"
+}
+
+### Update Event
+PUT http://localhost:8080/api/users/1/events/14
+Content-Type: application/json
+
+{
+      "titre": "phone",
+      "description": "venez acheter vos phone",
+      "date": "16-09-2021",
+      "time": "16:30",
+      "locality": "Garoua"
+}
+
+### List all events
+GET http://localhost:8080/api/users/events
+Content-Type: application/json
+
+### List pageable events
+GET http://localhost:8080/api/users/events?page=0&size=1&sort=titre
+Content-Type: application/json
+
+### Event for user 1
+GET http://localhost:8080/api/users/1/events
+Accept: application/json
+
+### you can do the same for another methods
