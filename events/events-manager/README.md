@@ -91,3 +91,7 @@ url: http://localhost:8080/api/events/delete_comment
 {  
 "id": "id du commentaire à supprimer"  
 } 
+
+
+N'hésitez pas à revenir vers moi pour toute préoccupation :-)
+<a href="mailto:bakengfack@gmail.com">bakengfack@gmail.com</a>
