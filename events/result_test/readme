@@ -1,0 +1,24 @@
+
+Exigences 
+
+Pour pouvoir deployer ce projet nous avons besoin :
+- Une base de donnée postgresql : Version 12 ou superieur 
+- Un IDE complet pour les projets JAVA (par exemple INTELLIJ ) : pour executer le projet et telecharger les dependances.
+  à la place de l'IDE vous pouvez aussi deployer le projet en installant les outils necessaires individuellement :
+  Ces outils sont :   
+         - MAVEN 
+         - APACHE TOMCAT
+         
+ Base de donnée 
+ 
+ Créer une base de donnée sur postgresql avec les identifiants suivants :
+ - Nom de la base de donnée : bitkap
+ - Nom de l'utilisateur : postgres
+ - Mot de passe : postgres
+ 
+ 
+ 
+ 
+ 
+ 
+ 
