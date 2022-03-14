@@ -69,11 +69,17 @@ public class EventServiceImpl implements EventService{
 
     @Override
     public ResponseEntity<?> deleteEventById(Long id) {
+
         SimpleMessage simpleMessage = new SimpleMessage();
         try {
-            eventRepository.deleteById(id);
             Event event = eventRepository.findById(id).get();
-        }catch(EmptyResultDataAccessException e) {
+            List<Comment> comments = commentRepository.findByEvent(event);
+            for (Comment comment:comments) {
+                commentRepository.deleteById(comment.getId());
+            }
+            eventRepository.deleteById(id);
+            Event event2 = eventRepository.findById(id).get();
+        }catch(NoSuchElementException e) {
             simpleMessage.setTitle("SUCCESS");
             simpleMessage.setMessage("DELETED EVENT");
             return ResponseEntity.ok(simpleMessage);
