@@ -67,15 +67,14 @@ public class EventController {
         return eventService.getCommentById(commentId);
     }
 
-    @DeleteMapping(value = "/comments/delete", produces = "application/json")
-    public ResponseEntity<Long> deleteComment(@RequestParam("commentId") Long commentId) {
+    @DeleteMapping(value = "/comments/delete/{commentId}", produces = "application/json")
+    public ResponseEntity<Long> deleteComment(@PathVariable("commentId") Long commentId) {
         return eventService.deleteComment(commentId);
     }
 
     @PutMapping(value = "/comments/update", produces = "application/json")
-    public ResponseEntity<Comment> updateComment(@RequestParam("commentId") Long commentId,
-                                                 @RequestBody Comment newComment) {
-        return eventService.updateComment(commentId, newComment);
+    public ResponseEntity<Comment> updateComment(@RequestBody CommentRequest commentRequest) {
+        return eventService.updateComment(commentRequest);
     }
 
 }

@@ -7,5 +7,6 @@ public class CommentRequest {
 
     private String description;
     private Long eventId;
+    private Long commentId;
 
 }

@@ -23,6 +23,6 @@ public interface EventService {
     public ResponseEntity<List<Comment>> getAllComments(Long eventId);
     public ResponseEntity<Comment> getCommentById(Long commentId);
     public ResponseEntity<Long> deleteComment(Long commentId);
-    public ResponseEntity<Comment> updateComment(Long commentId, Comment newComment);
+    public ResponseEntity<Comment> updateComment(CommentRequest commentRequest);
 
 }

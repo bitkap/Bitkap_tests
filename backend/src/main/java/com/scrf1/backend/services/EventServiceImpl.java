@@ -145,14 +145,14 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public ResponseEntity<Comment> updateComment(Long commentId, Comment newComment) {
-        if(commentId == null || newComment == null)
+    public ResponseEntity<Comment> updateComment(CommentRequest commentRequest) {
+        if(commentRequest == null)
             return ResponseEntity.badRequest().body(null);
 
-        Optional<Comment> oldComment = commentRepository.findById(commentId);
+        Optional<Comment> oldComment = commentRepository.findById(commentRequest.getCommentId());
         if(oldComment.isPresent()) {
-            oldComment.get().setDescription(newComment.getDescription() != null && !newComment.getDescription().isEmpty()?
-                    newComment.getDescription() : oldComment.get().getDescription());
+            oldComment.get().setDescription(commentRequest.getDescription() != null && !commentRequest.getDescription().isEmpty()?
+                    commentRequest.getDescription() : oldComment.get().getDescription());
 
             ResponseEntity.ok(commentRepository.save(oldComment.get()));
         }
