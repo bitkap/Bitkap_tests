@@ -20,7 +20,7 @@ A task has:
 - Notify tasks whose deadline has been exceeded
 
 **Note:** 
-- Once finished, make screenshots of your application and put them in a READMe, and also launching procedure.
+- Once finished, make a demo video of your application that you will save on drive and put the link in a READMe
 - A well organized code will always be welcomed
 - And finally, the most important thing here in this project is to let your creativity flow.
   

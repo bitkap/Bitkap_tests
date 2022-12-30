@@ -21,7 +21,7 @@ Une tâche comporte:
 - Notifier des tâches dont le délais a été dépassé
 
 **NB:** 
-- Une fois terminée, faire des screenshots de votre application et les mettre dans un READMe, ainsi que la procédure d'installation et d'exécution.
+- Une fois terminée, faire une capture video démonstrative de votre application que vous sauvegarderez sur drive et y mettre le lien dans un READMe
 - Un code bien organisé sera toujours la bienvenue
 - Et enfin, le plus important ici dans ce projet, c'est de laisser votre créativité s'exprimer.
   
