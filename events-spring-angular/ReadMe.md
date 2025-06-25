@@ -62,6 +62,15 @@ Endpoints :
 
   * Perform authenticated requests
 
+Keycloak parameters to use :
+
+* issuer: 'https://sso.bitkap.africa'
+* domain: 'https://sso.bitkap.africa'
+* Realm: 'bitkap_dev'
+* client id: 'angolar_test'
+  
+With user : email = test@bitkap.net , password = password  
+
 ### Tech stack
 
 * Backend: Java 8+, Spring Boot, Spring Security, Spring Data JPA, Keycloak adapter, H2/PostgreSQL

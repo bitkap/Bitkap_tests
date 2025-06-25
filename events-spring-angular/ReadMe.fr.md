@@ -62,6 +62,15 @@ Routes :
 
   * Effectuer des requêtes authentifiées
 
+Paramètres Keycloak à utiliser :
+
+* issuer: 'https://sso.bitkap.africa'
+* domain: 'https://sso.bitkap.africa'
+* Realm: 'bitkap_dev'
+* client id: 'angolar_test'
+  
+Avec un utilisateur : email = test@bitkap.net , password = password  
+
 ### Tech stack
 
 * Backend: Java 8+, Spring Boot, Spring Security, Spring Data JPA, Keycloak adapter, H2/PostgreSQL
