@@ -1,13 +1,13 @@
 # Event Management App
 
-## Overview
+## Vue d'ensemble
 
 Vous devez développer une application web pour la gestion d'événements en utilisant Spring Boot pour le backend et Angular pour le frontend. L'objectif est de développer une application de gestion d'événements où les utilisateurs peuvent s'inscrire, modifier, supprimer, afficher des événements et y faire des commentaires.\
 L'application doit utiliser Keycloak comme fournisseur d'identité pour sécuriser tous les endpoints de l'API, à l'exception de celui qui fournit la liste des événements.
 
-## Requirements
+## Exigences
 
-### Event Model
+### Evénement
 
 Chaque **événement** doit contenir :
 
@@ -22,7 +22,7 @@ Chaque **commentaire** doit contenir :
 * un texte
 * une date
 
-### API Requirements
+### Exigences de l'API
 
 Routes :
 
@@ -34,7 +34,7 @@ Routes :
 * Ajouter un commentaire à un événement
 * Supprimer un commentaire
 
-### Frontend Requirements
+### Exigences Frontend
 
 * Implémenter une interface utilisateur utilisant Angular qui permet :
   
@@ -50,7 +50,7 @@ Routes :
 
 * Fournir des messages d'erreur et des états de chargement
 
-### Security Requirements
+### Securité
 
 * Utiliser Keycloak comme fournisseur d'identité OAuth2
 
@@ -70,7 +70,7 @@ Routes :
 
 * Bonus (mais pas obligatoire) : Docker pour conteneuriser chaque application
 
-## Evaluation Criteria
+## Critères d'évaluation
 
 * Structure et clarté du code
 
@@ -84,7 +84,7 @@ Routes :
 
 * Qualité et réactivité de l'interface utilisateur et de l'interface graphique
 
-## Deliverables
+## Livrables
 
 * Lien GitHub/Gitlab du code source
 * Une vidéo demontrant comment l'application fonctionne
