@@ -1,5 +1,7 @@
 # Event Management App
 
+[French version here](ReadMe.fr.md)
+
 ## Overview
 
 You are required to develop a web application for managing events using Spring Boot for the backend and Angular for the frontend. The objective here is to develop an event management app where users can register, edit, delete, display events and make comments.\
