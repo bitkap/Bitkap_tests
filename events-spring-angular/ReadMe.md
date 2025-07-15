@@ -66,12 +66,12 @@ Endpoints :
 
 Keycloak parameters to use :
 
-* issuer: 'https://sso.bitkap.africa'
-* domain: 'https://sso.bitkap.africa'
-* Realm: 'bitkap_dev'
-* client id: 'angolar_test'
+* issuer: "https://sso.bitkap.africa"
+* domain: "https://sso.bitkap.africa"
+* Realm: "bitkap_dev"
+* client id: "angolar_test"
   
-With user : email = test@bitkap.net , password = password  
+With user : email = "test@bitkap.net" , password = "password"  
 
 ### Tech stack
 
