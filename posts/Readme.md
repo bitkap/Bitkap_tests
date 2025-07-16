@@ -1,5 +1,7 @@
 # Posts Management App
 
+[French version here](ReadMe.fr.md)
+
 ## Overview
 
 You are required to build a mobile application that allows users to visualize, create and manage posts. A post consist of an id, a title, a body and a user (username). The application should implement secure user authentication via Keycloak and store all data locally on the device.
