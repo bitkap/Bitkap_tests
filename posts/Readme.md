@@ -38,7 +38,7 @@ A Post should include the following:
 * id: unique identifier
 * title: short text
 * date: time at which a post has been created
-* body: ,ain content
+* body: main content
 * username: post creator's username (must be the one for the currently logged in user)
 
 ## Evaluation Criteria

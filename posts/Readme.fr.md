@@ -2,9 +2,9 @@
 
 ## Vue d'ensemble
 
-Vous devez créer une application mobile permettant aux utilisateurs de visualiser, créer et gérer des publications. Un publications est constitué d'un identifiant, d'un titre, d'un corps (body) et d'un utilisateur (username). L'application doit implémenter un mécanisme d'authentification sécurisée de l'utilisateur via Keycloak et stocker toutes les données localement sur l'appareil.
+Vous devez créer une application mobile permettant aux utilisateurs de visualiser, créer et gérer des publications. Une publication est constituée d'un identifiant, d'un titre, d'un corps (body) et d'un utilisateur (username). L'application doit implémenter un mécanisme sécurisé d'authentification de l'utilisateur via Keycloak et stocker toutes les données localement sur l'appareil.
 
-Ce projet servira à la fois d'évaluation technique et de tâche de développement de fonctionnalités dans le monde réel, évaluant votre capacité à intégrer l'authentification, à construire une interface utilisateur/UX réactive, à gérer la persistance des données locales et à mettre en œuvre une logique d'authentification.
+Ce projet servira à la fois d'évaluation technique et de tâche de développement de fonctionnalités dans le monde réel, évaluant votre capacité à intégrer l'authentification, à construire une UI/UX responsive et à gérer la persistance des données locales.
 
 ## Exigences
 
@@ -19,7 +19,7 @@ L'application doit avoir :
 ### Exigences non fonctionnelles
 
 * Exigences de sécurité : utiliser Keycloak comme fournisseur d'identité OAuth2 pour l'authentification des utilisateurs.
-* L'application doit être réactive
+* L'application doit être responsive
 * Les messages doivent être stockés localement en utilisant une base de données comme SQLite, Hive, ou toute autre solution de persistance locale de votre choix.
 
 Note : Paramètres Keycloak à utiliser :
