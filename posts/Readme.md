@@ -1,6 +1,6 @@
 # Posts Management App
 
-[French version here](ReadMe.fr.md)
+[French version here](Readme.fr.md)
 
 ## Overview
 
