@@ -27,6 +27,7 @@ Depending of the position you apply for, please choose only one of the test belo
 - [Events management API](events/ReadMe.md) (For **Spring Boot Developer**)
 - [Event management API](events-spring-angular/ReadMe.md) (For **Fullstack Spring-Angular Developer**)
 - [ToDo list management application](todos/ReadMe.md) (For **Flutter Developer**)
+- [Posts Management App](posts/Readme.md) (For **Flutter Developer**)
 - [ToDo list management application](todos-angular/ReadMe.md) (For **Angular Developer**)
 
 **Please keep all your work in the same sub-folder than the choosen test**.

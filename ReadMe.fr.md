@@ -20,9 +20,11 @@ Nous attendons de vous :
 
 Selon le poste auquel vous postulez, veuillez choisir un seul des tests ci-dessous :
 
-   - [API de gestion des événements](events/ReadMe.fr.md) (pour **développeur Spring Boot**)
-   - [Application de liste de tâches](todos/ReadMe.fr.md) (pour **développeur Flutter**)
-   - [Application de liste de tâches](todos-angular/ReadMe.fr.md) (pour **développeur Angular**)
+- [API de gestion des événements](events/ReadMe.fr.md) (pour **développeur Spring Boot**)
+- [Event management API](events-spring-angular/ReadMe.fr.md) (For **Fullstack Spring-Angular Developer**)
+- [Application de liste de tâches](todos/ReadMe.fr.md) (pour **développeur Flutter**)
+- [Application de gestion de publication](posts/Readme.fr.md) (pour **développeur Flutter**)
+- [Application de liste de tâches](todos-angular/ReadMe.fr.md) (pour **développeur Angular**)
 
 Veuillez conserver tous vos travaux dans le même sous-dossier que le test choisi.
 
