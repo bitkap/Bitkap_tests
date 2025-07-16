@@ -64,12 +64,12 @@ Routes :
 
 Paramètres Keycloak à utiliser :
 
-* issuer: 'https://sso.bitkap.africa'
-* domain: 'https://sso.bitkap.africa'
-* Realm: 'bitkap_dev'
-* client id: 'angolar_test'
+* issuer: "https://sso.bitkap.africa"
+* domain: "https://sso.bitkap.africa"
+* Realm: "bitkap_dev"
+* client id: "angolar_test"
   
-Avec un utilisateur : email = test@bitkap.net , password = password  
+Avec un utilisateur : email = "test@bitkap.net" , password = "password"  
 
 ### Tech stack
 
